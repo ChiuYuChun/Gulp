@@ -1,0 +1,50 @@
+@import "_reset";
+
+body{
+    width: 640px;
+    margin: 0 auto;
+}
+.d-f{
+    display: flex;
+}
+.fd-c{
+    flex-direction: column;
+}
+.fz-20{
+    font-size: 20px;
+}
+.fz-16{
+    font-size: 16px;
+}
+.lh1-5{
+    line-height: 1.5;
+}
+.lh1-2{
+    line-height: 1.2;
+}
+
+.container-left{
+    width: 424px;
+    img{
+        padding-bottom: 20px;
+        width: 96px;
+        height: 96px;
+    }
+}
+.container-right{
+    width: 216px;
+    img{
+        width: 216px;
+        height: 216px;
+    }
+}
+.container-text{
+    width: 288px;
+    padding-left: 20px;
+    margin-bottom: 24px;
+}
+
+
+.fw-w{
+    flex-wrap: wrap;
+}

@@ -1,14 +1,7 @@
 const srcPath = './app';
 const distPath = './dist';
 const nodePath = './node_modules';
-//tailwind Task
-const postcss = require('gulp-postcss');
 
-function processTailwind() {
-    return src('app/styles/tailwind.css')
-            .pipe(postcss())
-            .pipe(dest('dist/styles',{sourcemaps: '.'}))
-}
 let envOptions = {
   string: 'env',
   default: {
